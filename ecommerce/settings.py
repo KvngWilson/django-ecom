@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-6*dqoq$=370_$dg+)t*7w)*ss&_zefqa*^he%y0z)uujd8wx=i
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['django-ecom-apkx.onrender.com']
 
 
 # Application definition
@@ -39,7 +39,6 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'store.apps.StoreConfig',
-    'django-ecom-apkx.onrender.com'
 ]
 
 MIDDLEWARE = [
